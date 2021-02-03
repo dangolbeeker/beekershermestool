@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\AlignedHeapSegmentTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\AlignedStorageTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ArrayTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ArrayStorageTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\BytecodeProviderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CallResultTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CardObjectBoundaryNCTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CardTableNCTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CastingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CodeCoverageProfilerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CopyableVectorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\CrashManagerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\DateUtilTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\DecoratedObjectTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\DictPropertyMapTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ExtStringForTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ExternalMemAccountingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCBasicsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCFinalizerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCFragmentationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCGuardPageNCTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCInitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCLazySegmentNCTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCMarkWeakTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCObjectIterationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCOOMTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCReturnUnusedMemoryTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCSanitizeHandlesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCSegmentAddressIndexTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCSegmentRangeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\GCSizingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\HeapSnapshotTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\HermesValueTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\HiddenClassTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\IdentifierTableTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\InstrumentationAPITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\InternalPropertiesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\InterpreterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\IRInstrumentationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\JSLibTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\NativeFrameTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\NativeFunctionNameTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\MarkBitArrayNCTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ObjectBufferTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\ObjectModelTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\OperationsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\PredefinedStringsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\HandleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\RuntimeConfigTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\SegmentedArrayTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\SerializerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\SmallXStringTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\StaticBuiltinsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\StorageProviderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\StringBuilderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\StringPrimitiveTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\StringViewTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\SymbolIDTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\TwineChar16Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\WeakValueMapTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\VMRuntime\MetadataTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Scott\hermes\unittests\VMRuntime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AEF22A75-4314-367D-9791-E819A359F0DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{610AFD33-EAB1-3669-92D9-03E7BCB2FE10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

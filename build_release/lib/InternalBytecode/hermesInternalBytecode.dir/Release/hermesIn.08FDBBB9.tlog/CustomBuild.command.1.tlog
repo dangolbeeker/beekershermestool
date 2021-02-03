@@ -1,0 +1,52 @@
+^C:\USERS\SCOTT\BUILD_RELEASE\CMAKEFILES\BC1C7AF05A2241BE537A9298A11D1AC4\INTERNALBYTECODE.JS.RULE
+setlocal
+cd C:\Users\Scott\hermes\lib\InternalBytecode
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+type header.js Promise.js AsyncFn.js footer.js > C:/Users/Scott/build_release/lib/InternalBytecode/InternalBytecode.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SCOTT\BUILD_RELEASE\CMAKEFILES\BC1C7AF05A2241BE537A9298A11D1AC4\INTERNALBYTECODE.HBC.RULE
+setlocal
+cd C:\Users\Scott\hermes\lib\InternalBytecode
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Scott\build_release\bin\Release\hermesc.exe -O -Wno-undefined-variable -fno-enable-tdz -emit-binary -out=C:/Users/Scott/build_release/lib/InternalBytecode/InternalBytecode.hbc C:/Users/Scott/build_release/lib/InternalBytecode/InternalBytecode.js
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SCOTT\BUILD_RELEASE\CMAKEFILES\BC1C7AF05A2241BE537A9298A11D1AC4\INTERNALBYTECODE.INC.RULE
+setlocal
+cd C:\Users\Scott\hermes\lib\InternalBytecode
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python39\python.exe xxd.py C:/Users/Scott/build_release/lib/InternalBytecode/InternalBytecode.hbc > C:/Users/Scott/build_release/lib/InternalBytecode/InternalBytecode.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SCOTT\HERMES\LIB\INTERNALBYTECODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/lib/InternalBytecode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

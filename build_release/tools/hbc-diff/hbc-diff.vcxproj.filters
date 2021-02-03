@@ -1,0 +1,2559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Scott\hermes\tools\hbc-diff\hbc-diff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\CompileJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\DebuggerAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\SynthTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\SynthTraceParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\TraceInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\TracingRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\hermes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\hermes_tracing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\synthtest\tests\TestFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\JSIDynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\decorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\instrumentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsi-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsilib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\test\testlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\threadsafe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\HermesEpilogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\JSRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\MappedFileBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\config\ReplConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\config\hermes\Support\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\dtoa\dtoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\mlvalues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\flowparser\libflowparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\bytestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\localpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\parseerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ptypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\putil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\rep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\std_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\strenum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\stringpiece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucasemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucnv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucnv_err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\udat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\udisplaycontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uenum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uformattable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\umachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\umisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unifilt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unifunct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unimatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uniset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unistr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unorm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unorm2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\urename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ustring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf_old.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uvernum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\DataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\ErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APFloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APSInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\AllocatorList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Any.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ArrayRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BitVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BitmaskEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BreadthFirstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\CachedHashString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DAGDeltaAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DeltaAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseMapInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DepthFirstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\EpochTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\EquivalenceClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\FoldingSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\FunctionExtras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\GraphTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Hashing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IndexedMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntEqClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntervalMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntrusiveRefCntPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\MapVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\None.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Optional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PackedVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerEmbeddedInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerIntPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerSumType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerUnion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PostOrderIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PriorityWorklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SCCIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\STLExtras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ScopeExit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ScopedHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SetOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SetVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallBitVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallPtrSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseBitVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseMultiSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Statistic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringExtras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\TinyPtrVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Triple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Twine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\UniqueVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\VariadicFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\edit_distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\iterator_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\simple_ilist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Config\abi-breaking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Demangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\ItaniumDemangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\StringView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Argument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\AssemblyAnnotationWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\AutoUpgrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\BasicBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CFGDiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CallSite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CallingConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Comdat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Constant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ConstantFolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ConstantRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DIBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DataLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugInfoMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugLoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DerivedTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DerivedUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DomTreeUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Dominators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GVMaterializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GetElementPtrTypeIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalIFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalIndirectSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IRBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IRPrintingPasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InlineAsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstrTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IntrinsicInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Intrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LLVMContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassManagers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassNameParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\MDBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Mangler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSlotTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSummaryIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSummaryIndexYAML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\NoFolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\OperandTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\OptBisect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassInstrumentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassManagerInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassTimingInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PatternMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PredIteratorCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ProfileSummary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\SafepointIRVerifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Statepoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\SymbolTableListTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TrackingMDRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TypeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TypeFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Use.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\UseListOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueSymbolTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Verifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AMDGPUMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AMDHSAKernelDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMAttributeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMBuildAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMEHABI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMWinEH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AlignOf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ArrayRecycler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AtomicOrdering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryByteStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryItemStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BlockFrequency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BranchProbability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CBindingWrapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CFGUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\COM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CachePruning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Capacity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Casting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CheckedArithmetic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CodeGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CodeGenCoverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CommandLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ConvertUTF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CrashRecoveryContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DJB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DOTGraphTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DataExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DebugCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DynamicLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\EndianStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Errc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ErrorOr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileOutputBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatAdapters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatProviders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatVariadic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatVariadicDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormattedStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GenericDomTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GenericDomTreeConstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GlobPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GraphWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\InitLLVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ItaniumManglingCanonicalizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\JSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\JamCRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\KnownBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LEB128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LineIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LockFileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LowLevelTypeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MSVCErrorWorkarounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MachineValueType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ManagedStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MathExtras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MemAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MemoryBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MipsABIFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MutexGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\NativeFormatting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\OnDiskHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PluginLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PointerLikeTypeTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PrettyStackTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Printable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RWMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Recycler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RecyclingAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ReverseIteration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SMLoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SaveAndRestore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ScaledNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ScopedPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Signals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SmallVectorMemoryBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Solaris\sys\regset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SourceMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SpecialCaseList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\StringPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\StringSaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SwapByteOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SymbolRemappingReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SystemUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TarWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TaskQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ThreadLocal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Threading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ToolOutputFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TrailingObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TrigramIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TypeName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\UnicodeCharRanges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\UniqueLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Valgrind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\VersionTuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Watchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Win64EH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\WindowsError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\WithColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\X86DisassemblerDecoderCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\YAMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\YAMLTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\circular_raw_ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_os_ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_sha1_ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\type_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\xxhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Demangle\MicrosoftDemangleNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\Unix\Unix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\Windows\WindowsSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regex2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regex_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-actions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-cardinalities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-actions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-function-mockers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-matchers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-nice-strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-matchers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-more-actions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-more-matchers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-spec-builders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-generated-actions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-matchers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-generated-internal-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-internal-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-death-test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-param-test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-printers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-test-part.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-typed-test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest_pred_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest_prod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest-port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest-printers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\raw-ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-death-test-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-filepath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-linked_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-param-util-generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-param-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-port-arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-type-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\src\gtest-internal-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\zip\src\miniz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\external\zip\src\zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\ByteBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\JThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\NativeRunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\ReadableByteChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Boxed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\CoreClasses-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\CoreClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\FbjniApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Hybrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Iterator-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\JWeakReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta-forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\MetaConvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\ReferenceAllocators-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\ReferenceAllocators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References-forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Registration-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\SimpleFixedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\TypeTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\fbjni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\lyra\lyra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\lyra\lyra_exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\expect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\inter_dso_exception_test_1\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\inter_dso_exception_test_2\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\no_rtti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\BitArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\CompactArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ConsumableRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ExponentialMovingAverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\HalfPairIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\OwningArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\PtrOrInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\SafeInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ScopedHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\WordBitSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ASTBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\CommonJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTreeJSONDumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTreeVisitors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\RecursiveVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\SemValidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST2JS\AST2JS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\BCOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BackendContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Bytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeDataProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeDisassembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeFileFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeFormConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeInstructionGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeProviderFromSrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\ConsecutiveStringStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\DebugInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\DisassemblyOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\HBC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\HVMRegisterAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\ISel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\FuncCallNOpts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\InsertProfilePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\LowerBuiltinCalls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\OptEnvironmentInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SerializedLiteralGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SerializedLiteralParserBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SimpleBytecodeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\StackFrameLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\StreamVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\TraverseLiteralStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\UniquingFilenameTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\UniquingStringLiteralTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\Lowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\RegAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\CompilerDriver\CompilerDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\ConsoleHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\MemorySizeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\RandomSeedParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\RuntimeFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\DependencyExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\GraphQLDependencyExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\rust-dependency-extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\FlowParser\FlowParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\FrontEndDefs\Builtins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\Analysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\CFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IREval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRVerifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\Instrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IRGen\IRGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Inst\Inst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Inst\InstDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\InternalBytecode\InternalBytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\Pass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\PassManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\Pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Auditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CallGraphProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CodeMotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\DCE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\FuncSigOpts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\HoistStartGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Inlining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\InstSimplify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\InstructionEscapeAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Mem2Reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Outlining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\ResolveStaticRequire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\SimpleCallGraphProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\SimplifyCFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\StackPromotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\TDZDedup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\TypeInference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSONParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\PreParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Intl\PlatformIntl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\CharacterProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\CodePointSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\PlatformUnicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\icu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\Executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\Regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexBytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Runtime\Libhermes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Algorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Base64vlq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\CheckedMalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\CountingIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\DebugHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\HashString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JSONEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JenkinsHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\LEB128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\MemoryBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\OSCompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\OptValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTrackerEmpty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTrackerPosix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PerfSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\RegExpSerialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SNPrintfBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ScopeChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SimpleDiagHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SlowAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SourceErrorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Statistic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StatsAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringSetVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringTableEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ThreadLocal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\UTF16Stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\UTF8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Warning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Macro10k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AdviseUnused.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AlignedHeapSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AlignedStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ArrayLike.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ArrayStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\BasicBlockExecutionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\BuildMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CallResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Callable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CardTableNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Casting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CellKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CheckHeapWellFormedAcceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CodeBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompactionResult-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompactionResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompleteMarkState-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompleteMarkState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CopyableBasicString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CopyableVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DeadRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Debugger\DebugCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Debugger\Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DecoratedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Deserializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DictPropertyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Domain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ExpectedPageSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\FillerCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCBase-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCConcurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCDecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCExecTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCGeneration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCPointer-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentAddressIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentRange-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GenGCHeapSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GenGCNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HadesGC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Handle-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HandleRootOwner-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HandleRootOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HeapAlign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HeapSnapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValue-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValueTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HiddenClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HostModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\IdentifierTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\InternalProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Interpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\InterpreterState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\IterationKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\DenseUInt64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\DiscoverBB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\ExecHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\JIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\LLVMDisassembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\NativeDisassembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\PoolHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\x86-64\Emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\x86-64\JIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSArrayBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSCallableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSDataView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\DateUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\RuntimeCommonStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\RuntimeJSONUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSMapImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSNativeFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSRegExp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSRegExpStringIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSTypedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSWeakMapImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\LimitedStorageProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MallocGC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MarkBitArrayNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MockedEnvironment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\NativeArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OldGenNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OldGenSegmentRanges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OrderedHashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PointerBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Predefined.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PredefinedStringIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PrimitiveBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\ChromeTraceSerializerPosix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\CodeCoverageProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\InlineCacheProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfilerPosix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfilerStub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RegExpMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RootAndSlotAcceptorDefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Runtime-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Runtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeModule-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SegmentInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SegmentedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SerializeHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SerializedLiteralParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SingleObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SkipWeakRefsAcceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SlotAcceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SlotVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SmallXString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackFrame-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackTracesTree-NoRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackTracesTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StorageProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringRefUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SweepResultNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolID-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TimeLimitMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TwineChar16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TypesafeFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\VMExperiments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\VTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\WeakRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\WeakValueMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\YoungGenNC-inline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\YoungGenNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\detail\BackingStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\detail\IdentifierHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\ApproxIntegral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\PerfEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\ProcessStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\StatSamplingThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\include\jsi\testlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\AST\SemanticValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\IRGen\ESTreeIRGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\IRGen\IRInstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\Parser\JSParserImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\Interpreter-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\ExternalCalls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\x86-64\FastJIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\x86-64\RuntimeOffsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\JSLibInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\JSONLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\Sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\gcs\GCBase-WeakMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\CrashManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\CtorConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\DebuggerTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\GCConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\GCTripwireContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\RuntimeConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hbcdump\HBCParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hbcdump\ProfileAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes-parser\HermesParserDiagHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes-parser\HermesParserJSSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes\repl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\API\SegmentTestCompile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\BCGen\TestHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\Parser\DiagContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\EmptyCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\ExtStringForTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Scott\hermes\tools\hbc-diff\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AEF22A75-4314-367D-9791-E819A359F0DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{610AFD33-EAB1-3669-92D9-03E7BCB2FE10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

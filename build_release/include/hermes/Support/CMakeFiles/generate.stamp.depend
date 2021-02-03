@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Scott/hermes/include/hermes/Support/CMakeLists.txt
+C:/Users/Scott/hermes/include/hermes/Support/Config.h.in

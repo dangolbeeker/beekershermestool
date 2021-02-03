@@ -1,0 +1,1295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2DAE993-47D0-3174-A92E-54718945B1BB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>hermes-jsi</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Scott\build_release\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hermes-jsi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hermes-jsi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Scott\build_release\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hermes-jsi.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hermes-jsi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Scott\build_release\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hermes-jsi.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hermes-jsi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Scott\build_release\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hermes-jsi.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hermes-jsi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;HERMES_SLOW_DEBUG;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;HERMES_SLOW_DEBUG;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\API\hermes\Debug\hermesapi.lib;..\..\jsi\Debug\jsi.lib;..\..\lib\VM\Debug\hermesVMRuntime.lib;..\..\lib\ADT\Debug\hermesADT.lib;..\..\lib\Platform\Debug\hermesPlatform.lib;..\..\lib\Platform\Intl\Debug\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\Debug\hermesHBCBackend.lib;..\..\lib\Inst\Debug\hermesInst.lib;..\..\lib\BCGen\Debug\hermesBackend.lib;..\..\lib\Debug\hermesFrontend.lib;..\..\lib\FrontEndDefs\Debug\hermesFrontEndDefs.lib;..\..\lib\Debug\hermesOptimizer.lib;..\..\lib\SourceMap\Debug\hermesSourceMap.lib;..\..\lib\Parser\Debug\hermesParser.lib;..\..\lib\AST\Debug\hermesAST.lib;..\..\lib\Support\Debug\hermesSupport.lib;..\..\lib\Regex\Debug\hermesRegex.lib;..\..\lib\Platform\Unicode\Debug\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\Debug\hermesInternalBytecode.lib;..\..\external\dtoa\Debug\dtoa.lib;..\..\external\llvh\lib\Support\Debug\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\Debug\LLVHDemangle.lib;icuuc.lib;icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/tools/jsi/Debug/hermes-jsi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/bin/Debug/hermes-jsi.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\API\hermes\Release\hermesapi.lib;..\..\jsi\Release\jsi.lib;..\..\lib\VM\Release\hermesVMRuntime.lib;..\..\lib\ADT\Release\hermesADT.lib;..\..\lib\Platform\Release\hermesPlatform.lib;..\..\lib\Platform\Intl\Release\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\Release\hermesHBCBackend.lib;..\..\lib\Inst\Release\hermesInst.lib;..\..\lib\BCGen\Release\hermesBackend.lib;..\..\lib\Release\hermesFrontend.lib;..\..\lib\FrontEndDefs\Release\hermesFrontEndDefs.lib;..\..\lib\Release\hermesOptimizer.lib;..\..\lib\SourceMap\Release\hermesSourceMap.lib;..\..\lib\Parser\Release\hermesParser.lib;..\..\lib\AST\Release\hermesAST.lib;..\..\lib\Support\Release\hermesSupport.lib;..\..\lib\Regex\Release\hermesRegex.lib;..\..\lib\Platform\Unicode\Release\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\Release\hermesInternalBytecode.lib;..\..\external\dtoa\Release\dtoa.lib;..\..\external\llvh\lib\Support\Release\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\Release\LLVHDemangle.lib;icuuc.lib;icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/tools/jsi/Release/hermes-jsi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/bin/Release/hermes-jsi.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\API\hermes\MinSizeRel\hermesapi.lib;..\..\jsi\MinSizeRel\jsi.lib;..\..\lib\VM\MinSizeRel\hermesVMRuntime.lib;..\..\lib\ADT\MinSizeRel\hermesADT.lib;..\..\lib\Platform\MinSizeRel\hermesPlatform.lib;..\..\lib\Platform\Intl\MinSizeRel\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\MinSizeRel\hermesHBCBackend.lib;..\..\lib\Inst\MinSizeRel\hermesInst.lib;..\..\lib\BCGen\MinSizeRel\hermesBackend.lib;..\..\lib\MinSizeRel\hermesFrontend.lib;..\..\lib\FrontEndDefs\MinSizeRel\hermesFrontEndDefs.lib;..\..\lib\MinSizeRel\hermesOptimizer.lib;..\..\lib\SourceMap\MinSizeRel\hermesSourceMap.lib;..\..\lib\Parser\MinSizeRel\hermesParser.lib;..\..\lib\AST\MinSizeRel\hermesAST.lib;..\..\lib\Support\MinSizeRel\hermesSupport.lib;..\..\lib\Regex\MinSizeRel\hermesRegex.lib;..\..\lib\Platform\Unicode\MinSizeRel\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\MinSizeRel\hermesInternalBytecode.lib;..\..\external\dtoa\MinSizeRel\dtoa.lib;..\..\external\llvh\lib\Support\MinSizeRel\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\MinSizeRel\LLVHDemangle.lib;icuuc.lib;icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/tools/jsi/MinSizeRel/hermes-jsi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/bin/MinSizeRel/hermes-jsi.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\API\hermes\RelWithDebInfo\hermesapi.lib;..\..\jsi\RelWithDebInfo\jsi.lib;..\..\lib\VM\RelWithDebInfo\hermesVMRuntime.lib;..\..\lib\ADT\RelWithDebInfo\hermesADT.lib;..\..\lib\Platform\RelWithDebInfo\hermesPlatform.lib;..\..\lib\Platform\Intl\RelWithDebInfo\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\RelWithDebInfo\hermesHBCBackend.lib;..\..\lib\Inst\RelWithDebInfo\hermesInst.lib;..\..\lib\BCGen\RelWithDebInfo\hermesBackend.lib;..\..\lib\RelWithDebInfo\hermesFrontend.lib;..\..\lib\FrontEndDefs\RelWithDebInfo\hermesFrontEndDefs.lib;..\..\lib\RelWithDebInfo\hermesOptimizer.lib;..\..\lib\SourceMap\RelWithDebInfo\hermesSourceMap.lib;..\..\lib\Parser\RelWithDebInfo\hermesParser.lib;..\..\lib\AST\RelWithDebInfo\hermesAST.lib;..\..\lib\Support\RelWithDebInfo\hermesSupport.lib;..\..\lib\Regex\RelWithDebInfo\hermesRegex.lib;..\..\lib\Platform\Unicode\RelWithDebInfo\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\RelWithDebInfo\hermesInternalBytecode.lib;..\..\external\dtoa\RelWithDebInfo\dtoa.lib;..\..\external\llvh\lib\Support\RelWithDebInfo\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\RelWithDebInfo\LLVHDemangle.lib;icuuc.lib;icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/tools/jsi/RelWithDebInfo/hermes-jsi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/bin/RelWithDebInfo/hermes-jsi.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Scott\hermes\tools\jsi\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Scott/hermes/tools/jsi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/tools/jsi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Scott\build_release\tools\jsi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Scott/hermes/tools/jsi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/tools/jsi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Scott\build_release\tools\jsi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Scott/hermes/tools/jsi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/tools/jsi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Scott\build_release\tools\jsi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Scott/hermes/tools/jsi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/tools/jsi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Scott\build_release\tools\jsi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Scott\hermes\tools\jsi\jsi.cpp" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\CompileJS.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\DebuggerAPI.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\SynthTrace.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\SynthTraceParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\TraceInterpreter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\TracingRuntime.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\hermes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\hermes_tracing.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\hermes\synthtest\tests\TestFunctions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\JSIDynamic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\decorator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\instrumentation.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsi-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsi.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\jsilib.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\test\testlib.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\API\jsi\jsi\threadsafe.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\HermesEpilogue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\JSRuntime.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\android\intltest\java\com\facebook\hermes\test\MappedFileBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\config\ReplConfig.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\config\hermes\Support\Config.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\dtoa\dtoa.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\alloc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\callback.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\config.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\memory.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\misc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\caml\mlvalues.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\flowparser\include\flowparser\libflowparser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\bytestream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\localpointer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\parseerr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\platform.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ptypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\putil.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\rep.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\std_string.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\strenum.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\stringpiece.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucasemap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uchar.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucnv.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucnv_err.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ucol.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uconfig.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\udat.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\udisplaycontext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uenum.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uformattable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uiter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uloc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\umachine.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\umisc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unifilt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unifunct.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unimatch.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uniset.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unistr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unorm.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unorm2.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\unum.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uobject.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\urename.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uscript.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uset.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\ustring.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf16.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf8.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utf_old.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\utypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uvernum.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\icu_decls\unicode\uversion.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\DataTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Error.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\ErrorHandling.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Support.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh-c\Types.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APFloat.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APInt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\APSInt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\AllocatorList.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Any.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ArrayRef.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BitVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BitmaskEnum.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\BreadthFirstIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\CachedHashString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DAGDeltaAlgorithm.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DeltaAlgorithm.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseMapInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DenseSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\DepthFirstIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\EpochTracker.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\EquivalenceClasses.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\FoldingSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\FunctionExtras.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\GraphTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Hashing.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableList.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ImmutableSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IndexedMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntEqClasses.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntervalMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\IntrusiveRefCntPtr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\MapVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\None.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Optional.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PackedVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerEmbeddedInt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerIntPair.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerSumType.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PointerUnion.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PostOrderIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PriorityQueue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\PriorityWorklist.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SCCIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\STLExtras.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ScopeExit.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ScopedHashTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Sequence.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SetOperations.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SetVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallBitVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallPtrSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SmallVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseBitVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseMultiSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\SparseSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Statistic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringExtras.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringRef.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\StringSwitch.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\TinyPtrVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Triple.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\Twine.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\UniqueVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\VariadicFunction.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\bit.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\edit_distance.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_base.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_iterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node_base.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\ilist_node_options.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\iterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\iterator_range.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\ADT\simple_ilist.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Config\abi-breaking.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Compiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Demangle.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\ItaniumDemangle.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\StringView.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Demangle\Utility.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Argument.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\AssemblyAnnotationWriter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Attributes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\AutoUpgrade.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\BasicBlock.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CFG.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CFGDiff.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CallSite.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\CallingConv.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Comdat.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Constant.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ConstantFolder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ConstantRange.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Constants.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DIBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DataLayout.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugInfoMetadata.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DebugLoc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DerivedTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DerivedUser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticHandler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DiagnosticPrinter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\DomTreeUpdater.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Dominators.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Function.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GVMaterializer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GetElementPtrTypeIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalAlias.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalIFunc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalIndirectSymbol.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalObject.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalValue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\GlobalVariable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IRBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IRPrintingPasses.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InlineAsm.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstVisitor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\InstrTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Instruction.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Instructions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\IntrinsicInst.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Intrinsics.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LLVMContext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassManagers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\LegacyPassNameParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\MDBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Mangler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Metadata.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Module.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSlotTracker.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSummaryIndex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ModuleSummaryIndexYAML.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\NoFolder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\OperandTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Operator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\OptBisect.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassInstrumentation.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassManagerInternal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PassTimingInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PatternMatch.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\PredIteratorCache.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ProfileSummary.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\SafepointIRVerifier.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Statepoint.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\SymbolTableListTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TrackingMDRef.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Type.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TypeBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\TypeFinder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Use.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\UseListOrder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\User.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Value.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueHandle.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\ValueSymbolTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\IR\Verifier.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AMDGPUMetadata.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AMDHSAKernelDescriptor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMAttributeParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMBuildAttributes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMEHABI.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ARMWinEH.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AlignOf.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Allocator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ArrayRecycler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Atomic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\AtomicOrdering.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryByteStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryItemStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamError.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamReader.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamRef.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BinaryStreamWriter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BlockFrequency.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\BranchProbability.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CBindingWrapping.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CFGUpdate.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\COM.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CachePruning.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Capacity.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Casting.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CheckedArithmetic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Chrono.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CodeGen.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CodeGenCoverage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CommandLine.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Compiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Compression.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ConvertUTF.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\CrashRecoveryContext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DJB.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DOTGraphTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DataExtractor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DataTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Debug.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DebugCounter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\DynamicLibrary.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Endian.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\EndianStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Errc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Errno.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Error.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ErrorHandling.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ErrorOr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileCheck.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileOutputBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileSystem.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FileUtilities.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Format.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatAdapters.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatCommon.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatProviders.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatVariadic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormatVariadicDetails.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\FormattedStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GenericDomTree.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GenericDomTreeConstruction.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GlobPattern.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\GraphWriter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Host.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\InitLLVM.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ItaniumManglingCanonicalizer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\JSON.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\JamCRC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\KnownBits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LEB128.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LineIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Locale.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LockFileManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\LowLevelTypeImpl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MD5.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MSVCErrorWorkarounds.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MachineValueType.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ManagedStatic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MathExtras.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MemAlloc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Memory.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MemoryBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MipsABIFlags.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Mutex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\MutexGuard.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\NativeFormatting.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\OnDiskHashTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Options.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Parallel.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Path.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PluginLoader.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PointerLikeTypeTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\PrettyStackTrace.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Printable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Process.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Program.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RWMutex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RandomNumberGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Recycler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\RecyclingAllocator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Regex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Registry.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ReverseIteration.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SHA1.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SMLoc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SaveAndRestore.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ScaledNumber.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ScopedPrinter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Signals.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SmallVectorMemoryBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Solaris\sys\regset.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SourceMgr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SpecialCaseList.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\StringPool.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\StringSaver.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SwapByteOrder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SymbolRemappingReader.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\SystemUtils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TarWriter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetRegistry.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TargetSelect.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TaskQueue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ThreadLocal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ThreadPool.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Threading.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Timer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\ToolOutputFile.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TrailingObjects.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TrigramIndex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\TypeName.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Unicode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\UnicodeCharRanges.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\UniqueLock.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Valgrind.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\VersionTuple.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Watchdog.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\Win64EH.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\WindowsError.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\WithColor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\X86DisassemblerDecoderCommon.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\YAMLParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\YAMLTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\circular_raw_ostream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_os_ostream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_ostream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\raw_sha1_ostream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\thread.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\type_traits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\include\llvh\Support\xxhash.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Demangle\MicrosoftDemangleNodes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\Unix\Unix.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\Windows\WindowsSupport.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regex2.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regex_impl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\lib\Support\regutils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-actions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-cardinalities.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-actions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-function-mockers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-matchers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-generated-nice-strict.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-matchers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-more-actions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-more-matchers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock-spec-builders.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\gmock.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-generated-actions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-matchers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\custom\gmock-port.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-generated-internal-utils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-internal-utils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include\gmock\internal\gmock-port.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-death-test.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-message.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-param-test.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-printers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-spi.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-test-part.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest-typed-test.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest_pred_impl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\gtest_prod.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest-port.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest-printers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\gtest.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\custom\raw-ostream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-death-test-internal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-filepath.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-internal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-linked_ptr.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-param-util-generated.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-param-util.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-port-arch.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-port.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-string.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-tuple.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include\gtest\internal\gtest-type-util.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\src\gtest-internal-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\zip\src\miniz.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\external\zip\src\zip.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\ByteBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\Context.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\File.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\JThread.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\NativeRunnable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\ReadableByteChannel.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Boxed.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Common.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\CoreClasses-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\CoreClasses.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Environment.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Exceptions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\FbjniApi.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Hybrid.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Iterator-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Iterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\JWeakReference.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Log.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta-forward.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Meta.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\MetaConvert.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\ReferenceAllocators-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\ReferenceAllocators.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References-forward.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\References.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Registration-inl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\Registration.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\SimpleFixedString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\TypeTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\detail\utf8.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\fbjni\fbjni.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\lyra\lyra.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\cxx\lyra\lyra_exceptions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\expect.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\inter_dso_exception_test_1\Test.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\inter_dso_exception_test_2\Test.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\first-party\fbjni\test\jni\no_rtti.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\BitArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\CompactArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ConsumableRange.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ExponentialMovingAverage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\HalfPairIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\OwningArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\PtrOrInt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\SafeInt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\ScopedHashTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ADT\WordBitSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ASTBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\CommonJS.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\Config.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\Context.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTree.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTreeJSONDumper.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\ESTreeVisitors.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\RecursiveVisitor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST\SemValidate.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\AST2JS\AST2JS.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\BCOpt.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\Exceptions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BackendContext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Bytecode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeDataProvider.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeDisassembler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeFileFormat.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeFormConverter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeInstructionGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeProviderFromSrc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\BytecodeStream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\ConsecutiveStringStorage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\DebugInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\DisassemblyOptions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\HBC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\HVMRegisterAllocator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\ISel.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\FuncCallNOpts.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\InsertProfilePoint.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\LowerBuiltinCalls.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\Passes\OptEnvironmentInit.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SerializedLiteralGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SerializedLiteralParserBase.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\SimpleBytecodeBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\StackFrameLayout.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\StreamVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\TraverseLiteralStrings.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\UniquingFilenameTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\HBC\UniquingStringLiteralTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\Lowering.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\BCGen\RegAlloc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\CompilerDriver\CompilerDriver.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\ConsoleHost.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\MemorySizeParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\RandomSeedParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\ConsoleHost\RuntimeFlags.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\DependencyExtractor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\GraphQLDependencyExtractor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\DependencyExtractor\rust-dependency-extractor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\FlowParser\FlowParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\FrontEndDefs\Builtins.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\Analysis.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\CFG.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IR.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IREval.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRVerifier.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\IRVisitor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IR\Instrs.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\IRGen\IRGen.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Inst\Inst.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Inst\InstDecode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\InternalBytecode\InternalBytecode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\Pass.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\PassManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\PassManager\Pipeline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Auditor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CSE.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CallGraphProvider.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\CodeMotion.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\DCE.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\FuncSigOpts.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\HoistStartGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Inlining.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\InstSimplify.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\InstructionEscapeAnalysis.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Mem2Reg.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Outlining.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\ResolveStaticRequire.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\SimpleCallGraphProvider.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\SimplifyCFG.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\StackPromotion.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\TDZDedup.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Term.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\TypeInference.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Optimizer\Scalar\Utils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSLexer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSONParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\JSParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\PreParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Parser\pack.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Intl\PlatformIntl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Logging.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\CharacterProperties.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\CodePointSet.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\PlatformUnicode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Platform\Unicode\icu.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\Executor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\Regex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexBytecode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexNode.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Regex\RegexTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Runtime\Libhermes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\SourceMap\SourceMapTranslator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Algorithms.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Allocator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Base64vlq.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\CheckedMalloc.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Compiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Conversions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\CountingIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\DebugHelpers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ErrorHandling.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\HashString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JSON.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JSONEmitter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\JenkinsHash.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\LEB128.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Math.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\MemoryBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\OSCompat.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\OptValue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTracker.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTrackerEmpty.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PageAccessTrackerPosix.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\PerfSection.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\RegExpSerialization.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SHA1.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SNPrintfBuf.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ScopeChain.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Semaphore.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SimpleDiagHandler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SlowAssert.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\SourceErrorManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Statistic.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StatsAccumulator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringKind.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringSetVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\StringTableEntry.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\ThreadLocal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Timer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\UTF16Stream.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\UTF8.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Support\Warning.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Dumper.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Macro10k.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\Utils\Options.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AdviseUnused.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AlignedHeapSegment.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AlignedStorage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocOptions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocResult.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\AllocSource.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ArrayLike.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ArrayStorage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\BasicBlockExecutionInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\BuildMetadata.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CallResult.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Callable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CardTableNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Casting.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CellKind.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CheckHeapWellFormedAcceptor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CodeBlock.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompactionResult-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompactionResult.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompleteMarkState-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CompleteMarkState.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CopyableBasicString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\CopyableVector.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DeadRegion.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Debugger\DebugCommand.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Debugger\Debugger.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DecoratedObject.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Deserializer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\DictPropertyMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Domain.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\ExpectedPageSize.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\FillerCell.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCBase-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCBase.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCCell.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCConcurrency.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCDecl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCExecTrace.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCGeneration.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCPointer-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCPointer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentAddressIndex.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentRange-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GCSegmentRange.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GenGCHeapSegment.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\GenGCNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HadesGC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Handle-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Handle.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HandleRootOwner-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HandleRootOwner.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HeapAlign.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HeapSnapshot.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValue-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValue.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HermesValueTraits.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HiddenClass.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\HostModel.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\IdentifierTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\InternalProperty.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Interpreter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\InterpreterState.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\IterationKind.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\DenseUInt64.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\DiscoverBB.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\ExecHeap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\JIT.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\LLVMDisassembler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\NativeDisassembler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\PoolHeap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\x86-64\Emitter.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JIT\x86-64\JIT.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSArrayBuffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSCallableProxy.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSDataView.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSDate.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSError.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSGenerator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\DateUtil.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\RuntimeCommonStorage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSLib\RuntimeJSONUtils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSMapImpl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSNativeFunctions.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSObject.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSProxy.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSRegExp.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSRegExpStringIterator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSTypedArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\JSWeakMapImpl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\LimitedStorageProvider.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MallocGC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MarkBitArrayNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Metadata.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\MockedEnvironment.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\NativeArgs.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OldGenNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OldGenSegmentRanges.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Operations.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\OrderedHashMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PointerBase.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Predefined.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PredefinedStringIDs.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PrimitiveBox.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\ChromeTraceSerializerPosix.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\CodeCoverageProfiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\InlineCacheProfiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfiler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfilerPosix.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Profiler\SamplingProfilerStub.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyAccessor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyCache.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\PropertyDescriptor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RegExpMatch.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RootAndSlotAcceptorDefault.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Runtime-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Runtime.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeModule-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeModule.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\RuntimeStats.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SegmentInfo.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SegmentedArray.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SerializeHeader.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SerializedLiteralParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\Serializer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SingleObject.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SkipWeakRefsAcceptor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SlotAcceptor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SlotVisitor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SmallXString.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackFrame-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackFrame.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackTracesTree-NoRuntime.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StackTracesTree.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StorageProvider.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringBuilder.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringPrimitive.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringRefUtils.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\StringView.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SweepResultNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolID-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolID.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\SymbolRegistry.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TimeLimitMonitor.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TwineChar16.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\TypesafeFlags.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\VMExperiments.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\VTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\WeakRef.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\WeakValueMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\YoungGenNC-inline.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\YoungGenNC.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\detail\BackingStorage.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\detail\IdentifierHashTable.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\ApproxIntegral.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\PerfEvents.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\ProcessStats.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\hermes\VM\instrumentation\StatSamplingThread.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\include\jsi\testlib.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\AST\SemanticValidator.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\IRGen\ESTreeIRGen.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\IRGen\IRInstrument.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\Parser\JSParserImpl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\Interpreter-internal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\ExternalCalls.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\x86-64\FastJIT.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JIT\x86-64\RuntimeOffsets.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\JSLibInternal.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\JSONLexer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\Object.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\JSLib\Sorting.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\lib\VM\gcs\GCBase-WeakMap.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\Buffer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\CrashManager.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\CtorConfig.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\DebuggerTypes.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\GCConfig.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\GCTripwireContext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\public\hermes\Public\RuntimeConfig.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hbcdump\HBCParser.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hbcdump\ProfileAnalyzer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes-parser\HermesParserDiagHandler.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes-parser\HermesParserJSSerializer.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\tools\hermes\repl.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\API\SegmentTestCompile.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\BCGen\TestHelpers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\Parser\DiagContext.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\Array.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\EmptyCell.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\ExtStringForTest.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers.h" />
+    <ClInclude Include="C:\Users\Scott\hermes\unittests\VMRuntime\TestHelpers1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Scott\build_release\ZERO_CHECK.vcxproj">
+      <Project>{C144C5F7-FEBA-33F8-B8D4-E4DAFE1F706E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\lib\Demangle\LLVHDemangle.vcxproj">
+      <Project>{88BE49DE-29F4-391E-8A0F-CB6D6C79925F}</Project>
+      <Name>LLVHDemangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\lib\Support\LLVHSupport.vcxproj">
+      <Project>{2059DDC7-9A89-382A-8012-47E844DD70E3}</Project>
+      <Name>LLVHSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\dtoa\dtoa.vcxproj">
+      <Project>{1BEA8CC4-F490-3C7D-BA5E-11BCC4BA8207}</Project>
+      <Name>dtoa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\ADT\hermesADT.vcxproj">
+      <Project>{76CEDFF4-3213-38A2-BCF2-289797BAE122}</Project>
+      <Name>hermesADT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\AST\hermesAST.vcxproj">
+      <Project>{25CC7C7A-482A-31BC-A50A-9DD41ADC0FD9}</Project>
+      <Name>hermesAST</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\BCGen\hermesBackend.vcxproj">
+      <Project>{F909F5AD-2FB2-33C1-8390-9A14F02E67D0}</Project>
+      <Name>hermesBackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\FrontEndDefs\hermesFrontEndDefs.vcxproj">
+      <Project>{49A732A4-38AC-36BE-B9E8-983C7C631F60}</Project>
+      <Name>hermesFrontEndDefs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\hermesFrontend.vcxproj">
+      <Project>{3917C99D-A4C4-34CF-997D-38AC7560C28C}</Project>
+      <Name>hermesFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\BCGen\HBC\hermesHBCBackend.vcxproj">
+      <Project>{00D61789-6D47-3591-9788-1C313531A483}</Project>
+      <Name>hermesHBCBackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Inst\hermesInst.vcxproj">
+      <Project>{94022FE8-6D47-3595-AA5B-2B827CFDAC63}</Project>
+      <Name>hermesInst</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\InternalBytecode\hermesInternalBytecode.vcxproj">
+      <Project>{08FDBBB9-EAE2-3675-820E-F0868A407A7F}</Project>
+      <Name>hermesInternalBytecode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\hermesOptimizer.vcxproj">
+      <Project>{4E765356-7033-3FCC-8D96-DE2A8121F48B}</Project>
+      <Name>hermesOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Parser\hermesParser.vcxproj">
+      <Project>{265E6546-2D48-36E4-A0EA-7500CAFDB2EA}</Project>
+      <Name>hermesParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\hermesPlatform.vcxproj">
+      <Project>{3C9860C5-F34A-3151-8382-E098F01619FF}</Project>
+      <Name>hermesPlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\Intl\hermesPlatformIntl.vcxproj">
+      <Project>{947693DF-642B-3FEF-B098-47C06DA96ADC}</Project>
+      <Name>hermesPlatformIntl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\Unicode\hermesPlatformUnicode.vcxproj">
+      <Project>{0B426641-940A-33E9-AED5-4DA9ACA16739}</Project>
+      <Name>hermesPlatformUnicode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Regex\hermesRegex.vcxproj">
+      <Project>{BE8F8022-3E4C-3835-8814-44A08E76E052}</Project>
+      <Name>hermesRegex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\SourceMap\hermesSourceMap.vcxproj">
+      <Project>{EB680F29-F87F-3F3A-9F60-193B16B686CA}</Project>
+      <Name>hermesSourceMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Support\hermesSupport.vcxproj">
+      <Project>{2A4C5DEA-6880-3B09-B8EC-7906B474B7CB}</Project>
+      <Name>hermesSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\VM\hermesVMRuntime.vcxproj">
+      <Project>{30E99BFD-69F3-3D3E-BC5B-3BD8F8626596}</Project>
+      <Name>hermesVMRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\API\hermes\hermesapi.vcxproj">
+      <Project>{AC959638-FC45-34A7-8100-85DDB27CC276}</Project>
+      <Name>hermesapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\jsi\jsi.vcxproj">
+      <Project>{7A2C3959-646B-30CE-8A12-8FA12B3E7653}</Project>
+      <Name>jsi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

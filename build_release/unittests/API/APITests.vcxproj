@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE97F7A9-2C78-365E-85B1-85FF3076E7BB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>APITests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Scott\build_release\unittests\API\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">APITests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">APITests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Scott\build_release\unittests\API\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">APITests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">APITests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Scott\build_release\unittests\API\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">APITests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">APITests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Scott\build_release\unittests\API\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">APITests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">APITests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;HERMES_SLOW_DEBUG;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;HERMES_SLOW_DEBUG;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\external\llvh\lib\Support\Debug\LLVHSupport.lib;..\..\external\llvh\utils\unittest\UnitTestMain\Debug\gtest_main.lib;..\..\external\llvh\utils\unittest\Debug\gtest.lib;..\..\external\llvh\lib\Support\Debug\LLVHSupport.lib;..\..\API\hermes\Debug\hermesapi.lib;..\..\API\hermes\Debug\compileJS.lib;Debug\SegmentTestCompile.lib;..\..\jsi\Debug\jsi.lib;..\..\lib\VM\Debug\hermesVMRuntime.lib;..\..\lib\ADT\Debug\hermesADT.lib;..\..\lib\Platform\Debug\hermesPlatform.lib;..\..\lib\Platform\Intl\Debug\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\Debug\hermesHBCBackend.lib;..\..\lib\Inst\Debug\hermesInst.lib;..\..\lib\BCGen\Debug\hermesBackend.lib;..\..\lib\Debug\hermesFrontend.lib;..\..\lib\FrontEndDefs\Debug\hermesFrontEndDefs.lib;..\..\lib\Debug\hermesOptimizer.lib;..\..\lib\SourceMap\Debug\hermesSourceMap.lib;..\..\lib\Parser\Debug\hermesParser.lib;..\..\lib\AST\Debug\hermesAST.lib;..\..\lib\Support\Debug\hermesSupport.lib;..\..\lib\Regex\Debug\hermesRegex.lib;..\..\lib\Platform\Unicode\Debug\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\Debug\hermesInternalBytecode.lib;..\..\external\dtoa\Debug\dtoa.lib;icuuc.lib;icuin.lib;..\..\external\llvh\lib\Support\Debug\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\Debug\LLVHDemangle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/unittests/API/Debug/APITests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/unittests/API/Debug/APITests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\external\llvh\lib\Support\Release\LLVHSupport.lib;..\..\external\llvh\utils\unittest\UnitTestMain\Release\gtest_main.lib;..\..\external\llvh\utils\unittest\Release\gtest.lib;..\..\external\llvh\lib\Support\Release\LLVHSupport.lib;..\..\API\hermes\Release\hermesapi.lib;..\..\API\hermes\Release\compileJS.lib;Release\SegmentTestCompile.lib;..\..\jsi\Release\jsi.lib;..\..\lib\VM\Release\hermesVMRuntime.lib;..\..\lib\ADT\Release\hermesADT.lib;..\..\lib\Platform\Release\hermesPlatform.lib;..\..\lib\Platform\Intl\Release\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\Release\hermesHBCBackend.lib;..\..\lib\Inst\Release\hermesInst.lib;..\..\lib\BCGen\Release\hermesBackend.lib;..\..\lib\Release\hermesFrontend.lib;..\..\lib\FrontEndDefs\Release\hermesFrontEndDefs.lib;..\..\lib\Release\hermesOptimizer.lib;..\..\lib\SourceMap\Release\hermesSourceMap.lib;..\..\lib\Parser\Release\hermesParser.lib;..\..\lib\AST\Release\hermesAST.lib;..\..\lib\Support\Release\hermesSupport.lib;..\..\lib\Regex\Release\hermesRegex.lib;..\..\lib\Platform\Unicode\Release\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\Release\hermesInternalBytecode.lib;..\..\external\dtoa\Release\dtoa.lib;icuuc.lib;icuin.lib;..\..\external\llvh\lib\Support\Release\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\Release\LLVHDemangle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/unittests/API/Release/APITests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/unittests/API/Release/APITests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\external\llvh\lib\Support\MinSizeRel\LLVHSupport.lib;..\..\external\llvh\utils\unittest\UnitTestMain\MinSizeRel\gtest_main.lib;..\..\external\llvh\utils\unittest\MinSizeRel\gtest.lib;..\..\external\llvh\lib\Support\MinSizeRel\LLVHSupport.lib;..\..\API\hermes\MinSizeRel\hermesapi.lib;..\..\API\hermes\MinSizeRel\compileJS.lib;MinSizeRel\SegmentTestCompile.lib;..\..\jsi\MinSizeRel\jsi.lib;..\..\lib\VM\MinSizeRel\hermesVMRuntime.lib;..\..\lib\ADT\MinSizeRel\hermesADT.lib;..\..\lib\Platform\MinSizeRel\hermesPlatform.lib;..\..\lib\Platform\Intl\MinSizeRel\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\MinSizeRel\hermesHBCBackend.lib;..\..\lib\Inst\MinSizeRel\hermesInst.lib;..\..\lib\BCGen\MinSizeRel\hermesBackend.lib;..\..\lib\MinSizeRel\hermesFrontend.lib;..\..\lib\FrontEndDefs\MinSizeRel\hermesFrontEndDefs.lib;..\..\lib\MinSizeRel\hermesOptimizer.lib;..\..\lib\SourceMap\MinSizeRel\hermesSourceMap.lib;..\..\lib\Parser\MinSizeRel\hermesParser.lib;..\..\lib\AST\MinSizeRel\hermesAST.lib;..\..\lib\Support\MinSizeRel\hermesSupport.lib;..\..\lib\Regex\MinSizeRel\hermesRegex.lib;..\..\lib\Platform\Unicode\MinSizeRel\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\MinSizeRel\hermesInternalBytecode.lib;..\..\external\dtoa\MinSizeRel\dtoa.lib;icuuc.lib;icuin.lib;..\..\external\llvh\lib\Support\MinSizeRel\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\MinSizeRel\LLVHDemangle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/unittests/API/MinSizeRel/APITests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/unittests/API/MinSizeRel/APITests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w14062</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324;4068;4200;4201;4530</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION="0.7.0";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;UNIT_TEST;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;HERMES_RELEASE_VERSION=\"0.7.0\";HERMESVM_GC_NONCONTIG_GENERATIONAL;HERMESVM_ALLOW_COMPRESSED_POINTERS;HERMESVM_ALLOW_CONCURRENT_GC;USE_WIN10_ICU;HERMES_ENABLE_DEBUGGER;GTEST_LANG_CXX11=1;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Scott\hermes\external;C:\Users\Scott\hermes\external\flowparser\include;C:\Users\Scott\hermes\public;C:\Users\Scott\hermes\include;C:\Users\Scott\build_release\include;C:\Users\Scott\hermes\external\icu_decls;C:\Users\Scott\hermes\external\llvh\include;C:\Users\Scott\hermes\external\llvh\gen\include;C:\Users\Scott\build_release\external\llvh\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googletest\include;C:\Users\Scott\hermes\external\llvh\utils\unittest\googlemock\include;C:\Users\Scott\hermes\API;C:\Users\Scott\hermes\API\jsi;C:\Users\Scott\hermes\API\jsi\jsi\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\external\llvh\lib\Support\RelWithDebInfo\LLVHSupport.lib;..\..\external\llvh\utils\unittest\UnitTestMain\RelWithDebInfo\gtest_main.lib;..\..\external\llvh\utils\unittest\RelWithDebInfo\gtest.lib;..\..\external\llvh\lib\Support\RelWithDebInfo\LLVHSupport.lib;..\..\API\hermes\RelWithDebInfo\hermesapi.lib;..\..\API\hermes\RelWithDebInfo\compileJS.lib;RelWithDebInfo\SegmentTestCompile.lib;..\..\jsi\RelWithDebInfo\jsi.lib;..\..\lib\VM\RelWithDebInfo\hermesVMRuntime.lib;..\..\lib\ADT\RelWithDebInfo\hermesADT.lib;..\..\lib\Platform\RelWithDebInfo\hermesPlatform.lib;..\..\lib\Platform\Intl\RelWithDebInfo\hermesPlatformIntl.lib;..\..\lib\BCGen\HBC\RelWithDebInfo\hermesHBCBackend.lib;..\..\lib\Inst\RelWithDebInfo\hermesInst.lib;..\..\lib\BCGen\RelWithDebInfo\hermesBackend.lib;..\..\lib\RelWithDebInfo\hermesFrontend.lib;..\..\lib\FrontEndDefs\RelWithDebInfo\hermesFrontEndDefs.lib;..\..\lib\RelWithDebInfo\hermesOptimizer.lib;..\..\lib\SourceMap\RelWithDebInfo\hermesSourceMap.lib;..\..\lib\Parser\RelWithDebInfo\hermesParser.lib;..\..\lib\AST\RelWithDebInfo\hermesAST.lib;..\..\lib\Support\RelWithDebInfo\hermesSupport.lib;..\..\lib\Regex\RelWithDebInfo\hermesRegex.lib;..\..\lib\Platform\Unicode\RelWithDebInfo\hermesPlatformUnicode.lib;..\..\lib\InternalBytecode\RelWithDebInfo\hermesInternalBytecode.lib;..\..\external\dtoa\RelWithDebInfo\dtoa.lib;icuuc.lib;icuin.lib;..\..\external\llvh\lib\Support\RelWithDebInfo\LLVHSupport.lib;..\..\external\llvh\lib\Demangle\RelWithDebInfo\LLVHDemangle.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Scott/build_release/unittests/API/RelWithDebInfo/APITests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Scott/build_release/unittests/API/RelWithDebInfo/APITests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Scott\hermes\unittests\API\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Scott/hermes/unittests/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/unittests/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Scott\build_release\unittests\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Scott/hermes/unittests/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/unittests/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Scott\build_release\unittests\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Scott/hermes/unittests/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/unittests/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Scott\build_release\unittests\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Scott/hermes/unittests/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/unittests/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Scott\build_release\unittests\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\APITest.cpp" />
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\APITestFactory.cpp" />
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\APILeanTest.cpp" />
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\DebuggerTest.cpp" />
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\SegmentTest.cpp" />
+    <ClCompile Include="C:\Users\Scott\hermes\unittests\API\TrackIOTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Scott\build_release\ZERO_CHECK.vcxproj">
+      <Project>{C144C5F7-FEBA-33F8-B8D4-E4DAFE1F706E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\lib\Demangle\LLVHDemangle.vcxproj">
+      <Project>{88BE49DE-29F4-391E-8A0F-CB6D6C79925F}</Project>
+      <Name>LLVHDemangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\lib\Support\LLVHSupport.vcxproj">
+      <Project>{2059DDC7-9A89-382A-8012-47E844DD70E3}</Project>
+      <Name>LLVHSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\unittests\API\SegmentTestCompile.vcxproj">
+      <Project>{9465C955-477B-37C2-929D-BB6FFF87D3B6}</Project>
+      <Name>SegmentTestCompile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\API\hermes\compileJS.vcxproj">
+      <Project>{E53785C7-B129-3D6D-9B24-23DA948460E0}</Project>
+      <Name>compileJS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\dtoa\dtoa.vcxproj">
+      <Project>{1BEA8CC4-F490-3C7D-BA5E-11BCC4BA8207}</Project>
+      <Name>dtoa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\utils\unittest\gtest.vcxproj">
+      <Project>{6CEEC2CB-B3B4-3456-A0FB-981CDDA8FFE4}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\external\llvh\utils\unittest\UnitTestMain\gtest_main.vcxproj">
+      <Project>{3DDF0A5E-70A0-3136-8B3E-24DECFF635D1}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\ADT\hermesADT.vcxproj">
+      <Project>{76CEDFF4-3213-38A2-BCF2-289797BAE122}</Project>
+      <Name>hermesADT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\AST\hermesAST.vcxproj">
+      <Project>{25CC7C7A-482A-31BC-A50A-9DD41ADC0FD9}</Project>
+      <Name>hermesAST</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\BCGen\hermesBackend.vcxproj">
+      <Project>{F909F5AD-2FB2-33C1-8390-9A14F02E67D0}</Project>
+      <Name>hermesBackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\FrontEndDefs\hermesFrontEndDefs.vcxproj">
+      <Project>{49A732A4-38AC-36BE-B9E8-983C7C631F60}</Project>
+      <Name>hermesFrontEndDefs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\hermesFrontend.vcxproj">
+      <Project>{3917C99D-A4C4-34CF-997D-38AC7560C28C}</Project>
+      <Name>hermesFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\BCGen\HBC\hermesHBCBackend.vcxproj">
+      <Project>{00D61789-6D47-3591-9788-1C313531A483}</Project>
+      <Name>hermesHBCBackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Inst\hermesInst.vcxproj">
+      <Project>{94022FE8-6D47-3595-AA5B-2B827CFDAC63}</Project>
+      <Name>hermesInst</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\InternalBytecode\hermesInternalBytecode.vcxproj">
+      <Project>{08FDBBB9-EAE2-3675-820E-F0868A407A7F}</Project>
+      <Name>hermesInternalBytecode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\hermesOptimizer.vcxproj">
+      <Project>{4E765356-7033-3FCC-8D96-DE2A8121F48B}</Project>
+      <Name>hermesOptimizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Parser\hermesParser.vcxproj">
+      <Project>{265E6546-2D48-36E4-A0EA-7500CAFDB2EA}</Project>
+      <Name>hermesParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\hermesPlatform.vcxproj">
+      <Project>{3C9860C5-F34A-3151-8382-E098F01619FF}</Project>
+      <Name>hermesPlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\Intl\hermesPlatformIntl.vcxproj">
+      <Project>{947693DF-642B-3FEF-B098-47C06DA96ADC}</Project>
+      <Name>hermesPlatformIntl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Platform\Unicode\hermesPlatformUnicode.vcxproj">
+      <Project>{0B426641-940A-33E9-AED5-4DA9ACA16739}</Project>
+      <Name>hermesPlatformUnicode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Regex\hermesRegex.vcxproj">
+      <Project>{BE8F8022-3E4C-3835-8814-44A08E76E052}</Project>
+      <Name>hermesRegex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\SourceMap\hermesSourceMap.vcxproj">
+      <Project>{EB680F29-F87F-3F3A-9F60-193B16B686CA}</Project>
+      <Name>hermesSourceMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\Support\hermesSupport.vcxproj">
+      <Project>{2A4C5DEA-6880-3B09-B8EC-7906B474B7CB}</Project>
+      <Name>hermesSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\lib\VM\hermesVMRuntime.vcxproj">
+      <Project>{30E99BFD-69F3-3D3E-BC5B-3BD8F8626596}</Project>
+      <Name>hermesVMRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\API\hermes\hermesapi.vcxproj">
+      <Project>{AC959638-FC45-34A7-8100-85DDB27CC276}</Project>
+      <Name>hermesapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Scott\build_release\jsi\jsi.vcxproj">
+      <Project>{7A2C3959-646B-30CE-8A12-8FA12B3E7653}</Project>
+      <Name>jsi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

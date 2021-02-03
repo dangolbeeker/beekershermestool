@@ -1,0 +1,10 @@
+^C:\USERS\SCOTT\HERMES\LIB\BCGEN\HBC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Scott/hermes -BC:/Users/Scott/build_release --check-stamp-file C:/Users/Scott/build_release/lib/BCGen/HBC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Scott\hermes\lib\InternalBytecode\InternalBytecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Scott\build_release\CMakeFiles\bc1c7af05a2241be537a9298a11d1ac4\InternalBytecode.js.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Scott\build_release\CMakeFiles\bc1c7af05a2241be537a9298a11d1ac4\InternalBytecode.hbc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Scott\build_release\CMakeFiles\bc1c7af05a2241be537a9298a11d1ac4\InternalBytecode.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Scott\hermes\lib\InternalBytecode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3137006-1AB1-39CB-90B1-DB3B83F94274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{610AFD33-EAB1-3669-92D9-03E7BCB2FE10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
